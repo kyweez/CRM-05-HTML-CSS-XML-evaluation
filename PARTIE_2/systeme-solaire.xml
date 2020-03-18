@@ -1,19 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <systeme_solaire>
     <planete_tellurique>
+        <!--Mercure-->
         <planete>
             <nom>Mercure</nom>
-            <donnees_kilometriques>
-                <proprietes>
-                    <diametre unite="km">4878</diametre>
-                    <circonference unite="km">15324,689</circonference>
-                </proprietes>
-                <distances>
-
-                </distances>
-            </donnees_kilometriques>
+            <nombre_satellites>0</nombre_satellites>
+            <caracteristiques_physiques>
+                <masses_et_dimensions>
+                    <masses>
+                        <masse unite="Yg">330</masse> <!--10^24 kg = 10^3 Yt (Yottagramme)-->
+                        <masse_volumique unite="kg/dm^3">5,42</masse_volumique>
+                    </masses>
+                    <dimensions>
+                        <diametre unite="km">4878</diametre>
+                        <circonference unite="km">15324,689</circonference>
+                    </dimensions>
+                </masses_et_dimensions>
+                <volume unite="Mm^3">60,77486604</volume> <!--10^11 km^3 = 100 Mm^3 (Megametre cube)-->
+                <temperature type="positive" unite="°C">167</temperature>
+                <vitesse_autour_soleil unite="km/s">47,78</vitesse_autour_soleil>
+                <attraction_gravitationnelle unite="N/kg">3,78</attraction_gravitationnelle>
+            </caracteristiques_physiques>
+            <rotation_et_revolution>
+                <rotation>
+                    <nombre_jours unite="j">58</nombre_jours>
+                    <nombre_heures unite="h">15</nombre_heures>
+                    <nombre_minutes unite="m">38</nombre_minutes>
+                    <nombre_secondes unite="s"></nombre_secondes>
+                </rotation>
+                <revolution unite="an">0,24</revolution>
+            </rotation_et_revolution>
+            <distances>
+                <distance_soleil unite="Gm">57,8</distance_soleil> <!--10^6 km = 1 Gm (Gigametre)-->
+                <distance_terre unite="Gm">91,8</distance_terre> <!--10^6 km = 1 Gm (Gigametre)-->
+            </distances>
         </planete>
-
-    <planete_tellurique        >
-
+        <!--Venus-->
+        <planete>
+            <nom>Venus</nom>
+            <nombre_satellites>0</nombre_satellites>
+            <caracteristiques_physiques>
+                <masses_et_dimensions>
+                    <masses>
+                        <masse unite="Yg">4870</masse> <!--10^24 kg = 10^3 Yt (Yottagramme)-->
+                        <masse_volumique unite="kg/dm^3">5,24</masse_volumique>
+                    </masses>
+                    <dimensions>
+                        <diametre unite="km">12104</diametre>
+                        <circonference unite="km">38019,554</circonference>
+                    </dimensions>
+                </masses_et_dimensions>
+                <volume unite="Mm^3">928,0472071</volume> <!--10^11 km^3 = 100 Mm^3 (Megametre cube)-->
+                <temperature type="positive" unite="°C">465</temperature>
+                <vitesse_autour_soleil unite="km/s">35,02</vitesse_autour_soleil>
+                <attraction_gravitationnelle unite="N/kg">8,6</attraction_gravitationnelle>
+            </caracteristiques_physiques>
+            <rotation_et_revolution>
+                <rotation>
+                    <nombre_jours unite="j">243</nombre_jours>
+                    <nombre_heures unite="h"></nombre_heures>
+                    <nombre_minutes unite="m"></nombre_minutes>
+                    <nombre_secondes unite="s"></nombre_secondes>
+                </rotation>
+                <revolution unite="an">0,615</revolution>
+            </rotation_et_revolution>
+            <distances>
+                <distance_soleil unite="Gm">108,2</distance_soleil> <!--10^6 km = 1 Gm (Gigametre)-->
+                <distance_terre unite="Gm">41,4</distance_terre> <!--10^6 km = 1 Gm (Gigametre)-->
+            </distances>
+        </planete>
+        <!--Terre-->
+        <planete>
+            <nom>Terre</nom>
+            <nombre_satellites>1</nombre_satellites>
+            <caracteristiques_physiques>
+                <masses_et_dimensions>
+                    <masses>
+                        <masse unite="Yg">5973,6</masse> <!--10^24 kg = 10^3 Yt (Yottagramme)-->
+                        <masse_volumique unite="kg/dm^3">5,45</masse_volumique>
+                    </masses>
+                    <dimensions>
+                        <diametre unite="km">12756</diametre>
+                        <circonference unite="km">40024</circonference>
+                    </dimensions>
+                </masses_et_dimensions>
+                <volume unite="Mm^3">1083,21</volume> <!--10^11 km^3 = 100 Mm^3 (Megametre cube)-->
+                <temperature type="positive" unite="°C">15</temperature>
+                <vitesse_autour_soleil unite="km/s">29,78</vitesse_autour_soleil>
+                <attraction_gravitationnelle unite="N/kg">9,81</attraction_gravitationnelle>
+            </caracteristiques_physiques>
+            <rotation_et_revolution>
+                <rotation>
+                    <nombre_jours unite="j"></nombre_jours>
+                    <nombre_heures unite="h">23</nombre_heures>
+                    <nombre_minutes unite="m">56</nombre_minutes>
+                    <nombre_secondes unite="s">4</nombre_secondes>
+                </rotation>
+                <revolution unite="an">1</revolution>
+            </rotation_et_revolution>
+            <distances>
+                <distance_soleil unite="Gm">149,6</distance_soleil> <!--10^6 km = 1 Gm (Gigametre)-->
+                <distance_terre unite="Gm"></distance_terre> <!--10^6 km = 1 Gm (Gigametre)-->
+            </distances>
+        </planete>
+        <!--Mars-->
+        <planete>
+            <nom>Mars</nom>
+            <nombre_satellites>2</nombre_satellites>
+            <caracteristiques_physiques>
+                <masses_et_dimensions>
+                    <masses>
+                        <masse unite="Yg">642</masse> <!--10^24 kg = 10^3 Yt (Yottagramme)-->
+                        <masse_volumique unite="kg/dm^3">3,93</masse_volumique>
+                    </masses>
+                    <dimensions>
+                        <diametre unite="km">6794</diametre>
+                        <circonference unite="km">21318,84</circonference>
+                    </dimensions>
+                </masses_et_dimensions>
+                <volume unite="Mm^3">163,6214316</volume> <!--10^11 km^3 = 100 Mm^3 (Megametre cube)-->
+                <temperature type="negative" unite="°C">65</temperature>
+                <vitesse_autour_soleil unite="km/s">24,11</vitesse_autour_soleil>
+                <attraction_gravitationnelle unite="N/kg">3,72</attraction_gravitationnelle>
+            </caracteristiques_physiques>
+            <rotation_et_revolution>
+                <rotation>
+                    <nombre_jours unite="j"></nombre_jours>
+                    <nombre_heures unite="h">24</nombre_heures>
+                    <nombre_minutes unite="m">37</nombre_minutes>
+                    <nombre_secondes unite="s">23</nombre_secondes>
+                </rotation>
+                <revolution unite="an">1,88</revolution>
+            </rotation_et_revolution>
+            <distances>
+                <distance_soleil unite="Gm">227,9</distance_soleil> <!--10^6 km = 1 Gm (Gigametre)-->
+                <distance_terre unite="Gm">77,9</distance_terre> <!--10^6 km = 1 Gm (Gigametre)-->
+            </distances>
+        </planete>
+    </planete_tellurique>
+    <planete_gazeuse>
+        <!--Jupiter-->
+        <planete>
+            <nom>Jupiter</nom>
+            <nombre_satellites>63</nombre_satellites>
+            <caracteristiques_physiques>
+                <masses_et_dimensions>
+                    <masses>
+                        <masse unite="Yg">1899000</masse> <!--10^24 kg = 10^3 Yt (Yottagramme)-->
+                        <masse_volumique unite="kg/dm^3">1,32</masse_volumique>
+                    </masses>
+                    <dimensions>
+                        <diametre unite="km">142984</diametre>
+                        <circonference unite="km">449197,48</circonference>
+                    </dimensions>
+                </masses_et_dimensions>
+                <volume unite="Mm^3">1530597,323</volume> <!--10^11 km^3 = 100 Mm^3 (Megametre cube)-->
+                <temperature type="negative" unite="°C">54</temperature>
+                <vitesse_autour_soleil unite="km/s">13,07</vitesse_autour_soleil>
+                <attraction_gravitationnelle unite="N/kg">24,892</attraction_gravitationnelle>
+            </caracteristiques_physiques>
+            <rotation_et_revolution>
+                <rotation>
+                    <nombre_jours unite="j"></nombre_jours>
+                    <nombre_heures unite="h">9</nombre_heures>
+                    <nombre_minutes unite="m">50</nombre_minutes>
+                    <nombre_secondes unite="s"></nombre_secondes>
+                </rotation>
+                <revolution unite="an">11,86</revolution>
+            </rotation_et_revolution>
+            <distances>
+                <distance_soleil unite="Gm">778,6</distance_soleil> <!--10^6 km = 1 Gm (Gigametre)-->
+                <distance_terre unite="Gm">628,7</distance_terre> <!--10^6 km = 1 Gm (Gigametre)-->
+            </distances>
+        </planete>
+        <!--Saturne-->
+        <planete>
+            <nom>Saturne</nom>
+            <nombre_satellites>47</nombre_satellites>
+            <caracteristiques_physiques>
+                <masses_et_dimensions>
+                    <masses>
+                        <masse unite="Yg">568000</masse> <!--10^24 kg = 10^3 Yt (Yottagramme)-->
+                        <masse_volumique unite="kg/dm^3">0,68</masse_volumique>
+                    </masses>
+                    <dimensions>
+                        <diametre unite="km">120536</diametre>
+                        <circonference unite="km">378675,012</circonference>
+                    </dimensions>
+                </masses_et_dimensions>
+                <volume unite="Mm^3">916956,9533</volume> <!--10^11 km^3 = 100 Mm^3 (Megametre cube)-->
+                <temperature type="negative" unite="°C">150</temperature>
+                <vitesse_autour_soleil unite="km/s">9,66</vitesse_autour_soleil>
+                <attraction_gravitationnelle unite="N/kg">10,584</attraction_gravitationnelle>
+            </caracteristiques_physiques>
+            <rotation_et_revolution>
+                <rotation>
+                    <nombre_jours unite="j"></nombre_jours>
+                    <nombre_heures unite="h">11</nombre_heures>
+                    <nombre_minutes unite="m">30</nombre_minutes>
+                    <nombre_secondes unite="s"></nombre_secondes>
+                </rotation>
+                <revolution unite="an">29,46</revolution>
+            </rotation_et_revolution>
+            <distances>
+                <distance_soleil unite="Gm">1433,5</distance_soleil> <!--10^6 km = 1 Gm (Gigametre)-->
+                <distance_terre unite="Gm">1280,4</distance_terre> <!--10^6 km = 1 Gm (Gigametre)-->
+            </distances>
+        </planete>
+        <!--Uranus-->
+        <planete>
+            <nom>Uranus</nom>
+            <nombre_satellites>27</nombre_satellites>
+            <caracteristiques_physiques>
+                <masses_et_dimensions>
+                    <masses>
+                        <masse unite="Yg">868800</masse> <!--10^24 kg = 10^3 Yt (Yottagramme)-->
+                        <masse_volumique unite="kg/dm^3">1,27</masse_volumique>
+                    </masses>
+                    <dimensions>
+                        <diametre unite="km">51118</diametre>
+                        <circonference unite="km">160591,933</circonference>
+                    </dimensions>
+                </masses_et_dimensions>
+                <volume unite="Mm^3">69939,12317</volume> <!--10^11 km^3 = 100 Mm^3 (Megametre cube)-->
+                <temperature type="negative" unite="°C">210</temperature>
+                <vitesse_autour_soleil unite="km/s">6,81</vitesse_autour_soleil>
+                <attraction_gravitationnelle unite="N/kg">8,624</attraction_gravitationnelle>
+            </caracteristiques_physiques>
+            <rotation_et_revolution>
+                <rotation>
+                    <nombre_jours unite="j"></nombre_jours>
+                    <nombre_heures unite="h">17</nombre_heures>
+                    <nombre_minutes unite="m">24</nombre_minutes>
+                    <nombre_secondes unite="s"></nombre_secondes>
+                </rotation>
+                <revolution unite="an">84</revolution>
+            </rotation_et_revolution>
+            <distances>
+                <distance_soleil unite="Gm">2872,5</distance_soleil> <!--10^6 km = 1 Gm (Gigametre)-->
+                <distance_terre unite="Gm">2725,4</distance_terre> <!--10^6 km = 1 Gm (Gigametre)-->
+            </distances>
+        </planete>
+        <!--Neptune-->
+        <planete>
+            <nom>Neptune</nom>
+            <nombre_satellites>13</nombre_satellites>
+            <caracteristiques_physiques>
+                <masses_et_dimensions>
+                    <masses>
+                        <masse unite="Yg">102000</masse> <!--10^24 kg = 10^3 Yt (Yottagramme)-->
+                        <masse_volumique unite="kg/dm^3">1,63</masse_volumique>
+                    </masses>
+                    <dimensions>
+                        <diametre unite="km">49528</diametre>
+                        <circonference unite="km">155596,8</circonference>
+                    </dimensions>
+                </masses_et_dimensions>
+                <volume unite="Mm^3">63613,74964</volume> <!--10^11 km^3 = 100 Mm^3 (Megametre cube)-->
+                <temperature type="negative" unite="°C">220</temperature>
+                <vitesse_autour_soleil unite="km/s">5,43</vitesse_autour_soleil>
+                <attraction_gravitationnelle unite="N/kg">11,27</attraction_gravitationnelle>
+            </caracteristiques_physiques>
+            <rotation_et_revolution>
+                <rotation>
+                    <nombre_jours unite="j"></nombre_jours>
+                    <nombre_heures unite="h">16</nombre_heures>
+                    <nombre_minutes unite="m">3</nombre_minutes>
+                    <nombre_secondes unite="s"></nombre_secondes>
+                </rotation>
+                <revolution unite="an">164,79</revolution>
+            </rotation_et_revolution>
+            <distances>
+                <distance_soleil unite="Gm">4495,1</distance_soleil> <!--10^6 km = 1 Gm (Gigametre)-->
+                <distance_terre unite="Gm">4346,9</distance_terre> <!--10^6 km = 1 Gm (Gigametre)-->
+            </distances>
+        </planete>
+    </planete_gazeuse>
 </systeme_solaire>
+
+
