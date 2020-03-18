@@ -4,11 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caracteristiques du Systeme Solaire</title>
+    <style>
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 3px;
+        }
+        body{
+            font-size: 100%;
+            width: 100vw;
+            background-color: rgb(240, 230, 211);
+        }
+        div{
+            width: 100%;
+            margin: auto;
+        }
+        table, th, tr, td{
+            border: 2px solid gray;
+        }
+        th, td{
+            padding: 10px;
+        }
+        table{
+            width: 80%;
+            margin: auto;
+            border-collapse:collapse;
+        }
+        caption{
+            font-size: larger;
+            padding: 2%;
+        }
+        thead{
+            background-color: rgb(233, 233, 233);
+            font-size: large;
+        }
+        tbody{
+            background-color: white;
+        }
+        td{
+            text-align: right;
+        }
+        .caracteristiques{
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
     <div>
         <table>
-            
+            <caption>Les planetes du Systeme Solaire</caption>
+            <thead>
+                <tr>
+                    <th>Caractéristiques</th>
+                    <th>Mercure</th>
+                    <th>Venus</th>
+                    <th>Terre</th>
+                    <th>Mars</th>
+                    <th>Jupiter</th>
+                    <th>Saturne</th>
+                    <th>Uranus</th>
+                    <th>Neptune</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="caracteristiques">Diamètre (km)</td>
+                    <td>4 878</td>
+                    <td>12 104</td>
+                    <td>12 756</td>
+                    <td>6 794</td>
+                    <td>142 984</td>
+                    <td>120 536</td>
+                    <td>51 118</td>
+                    <td>49 528</td>
+                </tr>
+                <tr>
+                    <td class="caracteristiques">Circonférence (km)</td>
+                    <td>15 324,69</td>
+                    <td>38 019,55</td>
+                    <td>40 024,00</td>
+                    <td>21 318,84</td>
+                    <td>449 197,48</td>
+                    <td>378 675,01</td>
+                    <td>160 591,93</td>
+                    <td>155 596,80</td>
+                </tr>
+                <tr>
+                    <td class="caracteristiques">Distance Moyenne avec le Soleil (millions de km)</td>
+                    <td>57,80</td>
+                    <td>108,20</td>
+                    <td>149,60</td>
+                    <td>227,90</td>
+                    <td>778,60</td>
+                    <td>1 433,50</td>
+                    <td>2 872,50</td>
+                    <td>4 495,10</td>
+            </tbody>
         </table>
     </div>
 </body>
