@@ -8,37 +8,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Exercice Formulaire</h1>
     <div>
-        <p>Sign in</p>
+        <p id="sign-in">Sign in</p>
         <form action="#" method="POST">
             <div>
-                <label for="name">User Name :</label>
+                <label for="name">User Name :</label><br>
                 <input type="text" name="name" id="name" placeholder="Enter your user name">
             </div>
             <div>
-                <label for="pw">Password :</label>
+                <label for="pw">Password :</label><br>
                 <input type="password" name="pw" id="pw" placeholder="Enter your password">
             </div>
            <div>
                 <p>Group :</p>
-                <div>
-                    <label for="abc">ABC Dev</label>
-                    <input type="radio" name="group" id="abc" value="abc">
-                    <label for="dwwm">DWWM</label>
-                    <input type="radio" name="group" id="dwwm" value="dwwm">
-                    <label for="cda">CDA</label>
-                    <input type="radio" name="group" id="cda" value="cda">
+                <div id="user-group">
+                    <p>
+                        <input type="radio" name="group" id="abc" value="abc">
+                        <label for="abc">ABC Dev</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="group" id="dwwm" value="dwwm">
+                        <label for="dwwm">DWWM</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="group" id="cda" value="cda">
+                        <label for="cda">CDA</label>
+                    </p>
                 </div>
            </div>
            <div>
                <input class="blue-button" type="submit" value="Sign in">
            </div>
         </form>
-        <div>
+        <div id="pw-forgotten">
             <a href="#">Forgot Password ?</a>
         </div>
-        <div>
-            <a href="#">Sign up</a>
+        <div id="sign-up">
+            <p>New User</p>
+            <a class="blue-button" href="#">Sign up</a>
         </div>
     </div>
 </body>

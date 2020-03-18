@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    font: 1em sans-serif;
+}
+body{
+    width: 100vw;
+    background-color: rgb(245, 241, 210);
+}
+body>div{
+    background-color: white;
+    width: 450px;
+    height: 550px;
+    margin: 20px auto;
+    border: 2px solid gray;
+}
+h1{
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    margin: 2% 0;
+}
+#sign-in{
+    margin: 2%;
+    padding: 1% 0;
+    text-align: left;
+    border-bottom: 2px solid lightblue;
+    background-color: white;
+}
+form, #pw-forgotten{
+    margin: 2%;
+}
+form>div:nth-child(2){
+    margin: 3% 0 7% 0;
+}
+#name, #pw, #user-group{
+    margin: 1% 0;
+    padding: 1% 0;
+    border: 1px solid rgb(80, 78, 78);
+    text-indent: 5px;
+}
+#name, #pw{
+    width: 80%;
+}
+#user-group{
+    width: 35%;
+}
+#user-group p{
+    line-height: 200%;
+}
+input:checked+label{
+    color: blue;
+}
+#pw-forgotten{
+    font-size: 94%;
+    color: blue;
+    padding-bottom: 2%;
+    border-bottom: 2px solid lightblue;
+}
+.blue-button{
+    color: white;
+    font-weight: bold;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: dodgerblue;
+}
+.blue-button:hover{
+    background-color: turquoise;
+}
+#sign-up{
+    margin: 2%;
+}
+#sign-up p{
+    margin: 5% 0 3% 0;
+}
