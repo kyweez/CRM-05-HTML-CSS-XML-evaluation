@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<systeme_solaire>
+    <planete_tellurique>
+        <planete>
+            <nom>Mercure</nom>
+            <donnees_kilometriques>
+                <proprietes>
+                    <diametre unite="km">4878</diametre>
+                    <circonference unite="km">15324,689</circonference>
+                </proprietes>
+                <distances>
+
+                </distances>
+            </donnees_kilometriques>
+        </planete>
+
+    <planete_tellurique        >
+
+</systeme_solaire>
