@@ -1,7 +1,289 @@
-table, tr, th, td{
-    border: 1px solid grey;
+/*#######################################################################*/
+/*############################### GENERAL ###############################*/
+/*#######################################################################*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    font-size: 100%;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(75, 75, 75);
+}
+body{
+    width: 100%;
+    background-color: rgb(237, 237, 237);
 }
 img{
+    height: 50%;
+    width: 50%;
+}
+nav ul li{
+        display: inline-block;
+}
+h2{
+    color: black;
+    padding: 5px 0;
+    font-size: 130%;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*#######################################################################*/
+/*################################ HEADER ###############################*/
+/*#######################################################################*/
+header{
+    height: 120px;
+    background-color: rgb(78, 78, 78);
+    width: 100%;
+}
+h1{
+    font-size: 31px;
+    font-weight: bold;
+    padding: 42px 5%;
+    text-transform: uppercase;
+    width: 30%;
+    color: white;
+    position: relative;
+}
+#border-bicolor{
+    text-align: right;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: -60px;
+    right: -85%;
+    background: linear-gradient(to bottom, #bdbaba 0%, rgb(78, 78, 78) 50%, rgb(78, 78, 78) 50%, rgb(78, 78, 78) 100%);
+}
+#border-white{
+    position: relative;
+    top: 3px;
+    margin: 3px;
+    height: 114px;
+    width: 114px;
+    background-color: white;
+}
+header img{
     height: 100px;
     width: 100px;
+    margin: 7px;
+}
+
+/*#######################################################################*/
+/*################################# MAIN ################################*/
+/*#######################################################################*/
+
+/*========================== GENERAL =========================*/
+main{
+    width: 100%;
+}
+.titre{
+    text-indent: 3%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.entreprise-ecole, .date, .lieu, .skills-diploma{
+    text-indent: 4%;
+}
+.entreprise-ecole>strong{
+    font-weight: bold;
+}
+.date{
+    font-style: oblique 10deg;
+}
+.lieu{
+    text-decoration-line: underline;
+}
+/*========================= IDENTITY =========================*/
+#identity{
+    box-sizing: border-box;
+    width: 90%;
+    margin: 20px 5%;
+    height: 400px;
+    background-color: #fdf4e7;
+    box-shadow: 0em 0em 0.5em rgb(160, 157, 157);
+}
+#identity div{
+    box-sizing: border-box;
+    height: 340px;
+    width: 45%;
+    float: left;
+}
+#presentation{
+    padding: 5px 20px 5px 0;
+    margin: 30px 0 30px 5%;
+    border-right: 1px solid gray;
+}
+#info-contact{
+    padding: 5px 0 5px 20px;
+    margin: 30px 5% 30px 0;
+}
+#presentation p{
+    font-size: 100%;
+    line-height: 175%;
+    text-align: justify;
+    padding: 3% 0 2% 3%;
+    font-style: oblique 10deg;
+}
+#presentation a{
+    display: inline-block;
+    margin: 4% 28%;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 1.5% 10%;
+    color: white;
+}
+#presentation a:hover{
+    background-color: rgb(78, 78, 78);
+}
+#info-contact table{
+    padding: 3% 0 5% 3%;
+}
+#info-contact tr{
+    height: 30px;
+}
+#info-contact a{
+    color: rgb(75, 75, 75);
+}
+#info-contact th{
+    text-align: left;
+    width: 25%;
+}
+#info-contact a:hover{
+    font-weight: bold;
+    color: orange;
+}
+#info-contact nav{
+    padding: 0% 0 5% 8%;
+    width: 100%;
+}
+#info-contact nav ul{
+    width: 100%;
+}
+#info-contact nav ul li{
+    width: 20%;
+}
+/*============== FORMATIONS ET EXPERIENCES ===================*/
+#xp, #formation{
+    box-sizing: border-box;
+    width: 90%;
+    margin: 20px 5%;
+    height: 810px;
+    background-color: #fdf4e7;
+    box-shadow: 0em 0em 0.5em rgb(160, 157, 157);
+}
+#xp h2, #formation h2{
+    padding: 3% 5% 1% 5% ;
+}
+#xp div, #formation div{
+    box-sizing: border-box;
+    margin: 0 5%;
+    padding-bottom: 1.2%;
+    border-bottom: 1px solid gray;
+}
+#xp table, #formation table{
+    margin-top: 2%;
+}#xp table, #formation table:last-child{
+    margin-bottom: 1%;
+}
+#xp tr, #formation tr{
+    text-align: left;
+    height: 20px;
+    width: 100%;
+}
+#xp img, #formation img{
+    padding: 10px;
+    border: 1px solid rgb(78, 78, 78);
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}
+#xp td, #formation td{
+    width: 100%;
+}
+.titre{
+    text-indent: 3%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.entreprise-ecole, .date, .lieu, .skills-diploma{
+    text-indent: 4%;
+}
+.entreprise-ecole>strong{
+    font-weight: bold;
+}
+.date{
+    font-style: oblique 10deg;
+}
+.lieu{
+    text-decoration-line: underline;
+}
+/*======================== COMPETENCES =======================*/
+#skills{
+    box-sizing: border-box;
+    width: 90%;
+    margin: 20px 5%;
+    height: 575px;
+    background-color: #fdf4e7;
+    box-shadow: 0em 0em 0.5em rgb(160, 157, 157);
+    margin-bottom: 100px;
+}
+#skills h2{
+    padding: 3% 5% 2% 5% ;
+}
+#skills div{
+    box-sizing: border-box;
+    margin: 0 5%;
+    padding-bottom: 1.2%;
+    border-bottom: 1px solid gray;
+}
+#skills tr{
+    text-align: left;
+    height: 25px;
+    width: 100%;
+}
+#skills th{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#skills tr>td:first-child{
+    width: 28%;
+    text-indent: 5%;
+    font-weight: bold;
+}
+/*#######################################################################*/
+/*################################ FOOTER ###############################*/
+/*#######################################################################*/
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    text-align: center;
+}
+footer nav{
+    height: 50px;
+    width: 50%;
+    margin: auto 25%;
+}
+footer li{
+    padding: 2%;
+}
+footer p{
+    color: grey;
+    height: 50%;
+    padding-bottom: 0.5%;
+}
+footer li a{
+    color: rgb(229, 229, 226);
+}
+footer li a:hover{
+    text-decoration-line: underline;
+    color: orange;
 }

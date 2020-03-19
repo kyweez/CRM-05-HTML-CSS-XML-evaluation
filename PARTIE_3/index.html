@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--DOCUMENT VALIDE AU W3C CHECKER-->
 <html lang="fr">
 
 <head>
@@ -10,14 +11,16 @@
 
 <body>
     <header>
-        <h1>Aurélien BOUDIER</h1>
+        <h1>CV - Aurélien BOUDIER</h1>
+        <div id="border-bicolor">
+            <div id="border-white">
+                <img src="./img/crm.jpg" alt="Logo CRM">
+            </div>
+        </div>
     </header>
     <main>
-        <aside>
-            <img src="./img/crm.jpg" alt="Logo CRM">
-        </aside>
-        <section>
-            <article>
+        <section id="identity">
+            <div id="presentation">
                 <h2>Qui suis-je ?</h2>
                 <p>Actuellement stagiaire au CRM, je suis passé par de multiples orientations professionnelles. J'ai
                     d'abord été ébéniste d'art au sein des Compagnons du Tour de France, puis manager dans la
@@ -27,33 +30,34 @@
                     afin de travailler sur des protocoles réseaux.</p>
                 <a id="download" href="./doc/190411_BOUDIER_AURELIEN_CV_TECHNICIEN_SUPERIEUR_SYSTEME_ET_RESEAU.pdf"
                     target="_blank"> Télecharger mon CV</a>
-            </article>
-            <article id="identity">
+            </div>
+            <div id="info-contact">
                 <h2>Informations de contact</h2>
                 <table>
                     <tr>
                         <th>Nom :</th>
-                        <th>Aurélien BOUDIER</th>
+                        <td>Aurélien BOUDIER</td>
                     </tr>
                     <tr>
                         <th>Adresse :</th>
-                        <th>
+                        <td>
                             <address>1 rue de la Maréchale, chez Mr PALOS PINTO, 17000 LA ROCHELLE</address>
-                        </th>
+                        </td>
                     </tr>
                     <tr>
                         <th>Téléphone :</th>
-                        <th><a href="tel:+33674268360">06 74 26 82 60</a></th>
+                        <td><a href="tel:+33674268360" title="APPELEZ-MOI">06 74 26 82 60</a></td>
                     </tr>
                     <tr>
                         <th>Mail :</th>
-                        <th><a target="blank"
-                                href="mailto:auboudier.pro@gmail.com?subject=Nous%20souhaitons%20vous%20contacter">auboudier.pro@gmail.com</a>
-                        </th>
+                        <td><a target="blank"
+                                href="mailto:auboudier.pro@gmail.com?subject=Nous%20souhaitons%20vous%20contacter"
+                                title="CONTACTEZ-MOI">auboudier.pro@gmail.com</a>
+                        </td>
                     </tr>
                     <tr>
                         <th>Permis :</th>
-                        <th>B + Véhicule</th>
+                        <td>B + Véhicule</td>
                     </tr>
                 </table>
                 <nav>
@@ -76,7 +80,7 @@
                         </li>
                     </ul>
                 </nav>
-            </article>
+            </div>
         </section>
         <section id="xp">
             <h2>Expériences professionnelles</h2>
@@ -85,7 +89,7 @@
                 <table>
                     <tr>
                         <th rowspan="5"><img src="./img/afp.png" alt="Logo AFP"></th>
-                        <th>Stagiaire en supervision de réseaux</th>
+                        <td class="titre">Stagiaire en supervision de réseaux</td>
                     </tr>
                     <tr>
                         <td class="entreprise-ecole"><strong>Agence France Presse</strong></td>
@@ -104,7 +108,7 @@
                 <table>
                     <tr>
                         <th rowspan="5"><img src="./img/sodifrance.png" alt="Logo Sodifrance"></th>
-                        <th>Stagiaire en informatique</th>
+                        <td class="titre">Stagiaire en informatique</td>
                     </tr>
                     <tr>
                         <td class="entreprise-ecole"><strong>Sodifrance</strong></td>
@@ -124,10 +128,10 @@
                 <table>
                     <tr>
                         <th rowspan="5"><img src="./img/mcdo.png" alt="Logo McDonald's"></th>
-                        <th>Manager et Assistant RH</th>
+                        <td class="titre">Manager et Assistant RH</td>
                     </tr>
                     <tr>
-                        <td class="entreprise-ecole"><strong>McDonald's/strong></td>
+                        <td class="entreprise-ecole"><strong>McDonald's</strong></td>
                     </tr>
                     <tr>
                         <td class="date">2009 -2016</td>
@@ -144,7 +148,7 @@
                 <table>
                     <tr>
                         <th rowspan="5"><img src="./img/compagnons.png" alt="Logo FCMB"></th>
-                        <th>Ebéniste, Menuisier, Chef d'équipe</th>
+                        <td class="titre">ébéniste, Menuisier, Chef d'équipe</td>
                     </tr>
                     <tr>
                         <td class="entreprise-ecole"><strong>Tour de France</strong></td>
@@ -165,14 +169,14 @@
         <section id="formation">
             <h2>Formations</h2>
             <div>
-                <!--CRM-->
+                <!--Centre de Réadaptation de Mulhouse-->
                 <table>
                     <tr>
                         <th rowspan="5"><img src="./img/crm.jpg" alt="Logo CRM"></th>
-                        <th>Concepteur Développeur d'Applications</th>
+                        <td class="titre">Concepteur Développeur d'Applications</td>
                     </tr>
                     <tr>
-                        <td class="entreprise-ecole"><strong>Centre de Réadpatation de Mulhouse</strong></td>
+                        <td class="entreprise-ecole"><strong>Centre de Réadaptation de Mulhouse</strong></td>
                     </tr>
                     <tr>
                         <td class="date">Novembre 2019 - Aujourd'hui</td>
@@ -187,8 +191,8 @@
                 <!--Ecole 42-->
                 <table>
                     <tr>
-                        <th rowspan="5"><img src="./img/42.png" alt="Logo 42"></th>
-                        <th>Développeur</th>
+                        <th rowspan="5"><img src="./img/42.png" alt="Logo Ecole 42"></th>
+                        <td class="titre">Développeur</td>
                     </tr>
                     <tr>
                         <td class="entreprise-ecole"><strong>Ecole 42</strong></td>
@@ -206,11 +210,11 @@
                 <!--AFPA-->
                 <table>
                     <tr>
-                        <th rowspan="5"><img src="./img/mcdo.png" alt="Logo McDonald's"></th>
-                        <th>Technicien supérieur en réseaux & télécoms</th>
+                        <th rowspan="5"><img src="./img/afp.png" alt="Logo AFPA"></th>
+                        <td class="titre">Technicien supérieur en réseaux et télécoms</td>
                     </tr>
                     <tr>
-                        <td class="entreprise-ecole"><strong>AFPA</td>
+                        <td class="entreprise-ecole"><strong>AFPA</strong></td>
                     </tr>
                     <tr>
                         <td class="date">2017 -2018</td>
@@ -226,7 +230,7 @@
                 <table>
                     <tr>
                         <th rowspan="5"><img src="./img/compagnons.png" alt="Logo FCMB"></th>
-                        <th>Compagnon Ebéniste</th>
+                        <td class="titre">Compagnon Ebéniste</td>
                     </tr>
                     <tr>
                         <td class="entreprise-ecole"><strong>Compagnons du Tour de France</strong></td>
@@ -238,7 +242,7 @@
                         <td class="lieu">Mouchard, Paris, Grenoble, Tours</td>
                     </tr>
                     <tr>
-                        <td class="skills-diploma">CAP Ebéniste</td>
+                        <td class="skills-diploma">CAP ébéniste</td>
                     </tr>
                 </table>
             </div>
@@ -271,6 +275,9 @@
                         <td>Routing, Switching, Supervision, Sécurité, Virtualisation, Linux/Windows</td>
                     </tr>
                     <tr>
+                        <th colspan="2">&nbsp;</th>
+                    </tr>
+                    <tr>
                         <th colspan="2">Gestion</th>
                     </tr>
                     <tr>
@@ -281,6 +288,9 @@
                     <tr>
                         <td>Gestion de projets</td>
                         <td>Versionning, GIT, Merise, Scrum</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">&nbsp;</th>
                     </tr>
                     <tr>
                         <th colspan="2">Langues</th>
@@ -313,4 +323,5 @@
         <p>Copyright &copy; - Kyweez</p>
     </footer>
 </body>
+
 </html>
